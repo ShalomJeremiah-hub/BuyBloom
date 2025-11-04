@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    color: blue;
+}
+#heading1{
+    color: black;
+}
+.paragraph{
+    font-style: italic;
+    font-weight: bold;
+
+}

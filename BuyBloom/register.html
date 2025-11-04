@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register page- BuyBloom</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+
+        <legend><marquee behavior="" direction=" left"></marquee>Create An Account :</legend><br>
+        <label for="">First Name</label>
+        <input type="text" placeholder="Enter First Name" id="first-name" name="first-name" required>
+
+
+
+<label for="">Last Name :</label>
+<input type="text" placeholder="Enter Last Name"id="last-name" name="last-name" required>
+
+<br></br>
+
+<label for="email">Email :</label>
+<input type="email" placeholder="e.g abc@gmail.com" id="email" name="email" required>
+
+<br></br>
+
+<label for="password">Password :</label>
+<input type="password" placeholder="Enter Password" id="password" name="password" required>
+
+<br></br>
+<label for="confirm-password">Confirm Password :</label>
+<input type="password" placeholder="Re-enter Password" id="confirm-password" name="confirm-password" required>
+
+<br></br>
+<label for="yob">Birthday :</label>
+<input type="date" id="yob" name="yob" required>
+
+<br></br>
+<label for="dt">Date and Time :</label>
+<input type="datetime-local" id="dt" name="dt" required>
+
+<br></br>
+<label for="phone">Phone Number :</label>
+<input type="tel" placeholder="e.g +254 75 678 890" id="phone" name="phone" required>
+
+<br></br>
+
+<label for="file">Image :</label>
+<input type="file" id="file" name="file" accept="image/*" required>
+
+<br></br>
+<label for="file">Upload CV/Resume :</label>
+<input type="file" id="file" name="file" accept=".pdf,.doc,.docx" required> 
+
+<br></br>
+<label for="yoe">Year of Experience :</label>
+<!--Dropdown for years of experience -->
+<select name="yoe" id="yoe">
+    <option value="" disable>Select Years of Experience</option>
+    <option value="1">1 year</option>
+    <option value="2">2 years</option>
+    <option value="3">3 years</option>
+    <option value="4">4 years</option>
+    <option value="5">5 years</option>
+    <option value="6">6 years</option>
+    <option value="7">7 years</option>
+    <option value="8">8 years</option>
+    <option value="9">9 years</option>
+    <option value="10">10 years</option>
+</select>
+
+<br></br>
+<p>Choose your preferred job role</p>
+<input type="radio" id="developer" name="job-role" value="developer" required>
+<label for="developer">Developer</label><br>
+<input type="radio" id="designer" name="job-role" value="designer" required>
+<label for="designer">Designer</label><br>
+<input type="radio" id="manager" name="job-role" value="manager" required>
+<label for="manager">Manager</label><br>
+<input type="radio" id="tester" name="job-role" value="tester" required>
+<label for="tester">Tester</label><br>
+<input type="radio" id="other" name="job-role" value="other" required>
+<label for="other">Other</label><br>
+</required>
+
+<br></br>
+<p>Which programming languages are you proficient in?</p>
+<input type="checkbox" id="html" name="languages" value="HTML">
+<label for="html">HTML</label><br>
+<input type="checkbox" id="css" name="languages" value="CSS">
+<label for="css">CSS</label><br>
+<input type="checkbox" id="javascript" name="languages" value="JavaScript">
+<label for="javascript">JavaScript</label><br>
+<input type="checkbox" id="python" name="languages" value="Python">
+<label for="python">Python</label><br>
+<input type="checkbox" id="java" name="languages" value="Java">
+<label for="java">Java</label><br>
+
+
+<br></br>
+<label for="Message">Describe your experience:</label><br>
+<textarea name="experience" id="experience" cols="60" rows="7"></textarea>
+
+<br></br>
+<input type="checkbox" id="terms" name="terms" required>
+<label for="terms">I agree to the Terms and Conditions</label><br>
+<br></br>
+<input type="submit" value="Register Now">
+<br></br>
+<p>Already have an account? <a href="login.html">Login here</a></p>
+
+</form>
+
+<br></br>
+</body>
+</html>
